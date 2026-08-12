@@ -1,0 +1,229 @@
+/* ========== Project Detail Page ========== */
+
+.project-detail {
+  background-color: var(--bg-primary, #0a0a0a);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.project-detail__container {
+  margin: 0 auto;
+  padding: 20px 30px 40px;
+}
+
+/* ========== Back Link ========== */
+
+.project-detail__back-link {
+  display: inline-block;
+  color: var(--gold, #d4a017);
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+.project-detail__back-link:hover {
+  color: var(--gold-light, #f0c040);
+}
+
+/* ========== Top Section: Info + Video ========== */
+
+.project-detail__top {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.project-detail__info {
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+
+.project-detail__title {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  color: var(--gold, #d4a017);
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  line-height: 1.3;
+}
+
+.project-detail__description {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0;
+}
+
+.project-detail__video {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.project-detail__video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.project-detail__video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ========== Technical Section ========== */
+
+.project-detail__technical {
+  margin-top: 50px;
+}
+
+.project-detail__technical-heading {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.project-detail__technical-text {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0;
+}
+
+.project-detail__see-more {
+  color: var(--gold, #d4a017);
+  cursor: pointer;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.project-detail__see-more:hover {
+  color: var(--gold-light, #f0c040);
+}
+
+.project-detail__see-more:focus-visible {
+  outline: 2px solid var(--gold, #d4a017);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ========== Photo Gallery (Masonry) ========== */
+
+.project-detail__gallery {
+  margin-top: 50px;
+}
+
+.project-detail__gallery-grid {
+  column-count: 3;
+  column-gap: 12px;
+}
+
+.project-detail__gallery-item {
+  break-inside: avoid;
+  margin-bottom: 12px;
+}
+
+.project-detail__gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-detail__gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+/* ========== Coming Soon Fallback ========== */
+
+.project-detail__coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.project-detail__coming-soon .project-detail__back-link {
+  align-self: flex-start;
+}
+
+.project-detail__coming-soon-title {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  color: var(--gold, #d4a017);
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.project-detail__coming-soon-text {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #888888;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* ========== Responsive ========== */
+
+@media (max-width: 1024px) {
+  .project-detail__container {
+    padding: 30px 24px;
+  }
+
+  .project-detail__top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .project-detail__info,
+  .project-detail__video {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .project-detail__gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .project-detail__container {
+    padding: 20px 16px;
+  }
+
+  .project-detail__title {
+    font-size: 28px;
+  }
+
+  .project-detail__technical-heading {
+    font-size: 18px;
+  }
+
+  .project-detail__gallery-grid {
+    column-count: 1;
+  }
+}

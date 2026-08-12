@@ -1,0 +1,66 @@
+/* ===== Gallery Page ===== */
+
+.gallery-page {
+  background-color: var(--bg-primary, #0a0a0a);
+  min-height: calc(100vh - 90px);
+  padding: 20px 30px 40px;
+}
+
+.gallery-heading {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  color: var(--gold, #d4a017);
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0 0 40px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.gallery-masonry-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-masonry-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-masonry-item img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(212, 160, 23, 0.2);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1024px) {
+  .gallery-page {
+    padding: 32px 32px;
+  }
+
+  .gallery-masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery-page {
+    padding: 24px 16px;
+  }
+
+  .gallery-masonry {
+    column-count: 1;
+  }
+
+  .gallery-heading {
+    font-size: 28px;
+  }
+}

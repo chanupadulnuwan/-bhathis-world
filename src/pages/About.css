@@ -1,0 +1,254 @@
+/* ===== About Page ===== */
+
+.about-page {
+  background-color: var(--bg-primary, #0a0a0a);
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px 30px 40px;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+}
+
+/* ---------- TOP SECTION ---------- */
+
+.about-top {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.about-top-left {
+  flex: 0 0 45%;
+}
+
+.about-top-right {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-title {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  color: var(--gold, #d4a017);
+  font-size: 34px;
+  margin: 0 0 24px 0;
+  font-weight: 400;
+}
+
+.about-bio {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0 0 16px 0;
+}
+
+.about-portrait {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* ---------- QUOTE BANNER ---------- */
+
+.quote-banner {
+  width: 100%;
+  height: 300px;
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background:
+    /* Subtle grid lines over dark bg */
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    /* Diagonal mesh pattern */
+    linear-gradient(45deg, rgba(255, 255, 255, 0.015) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.015) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.015) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.015) 75%),
+    /* Base dark color */
+    #0d0d0d;
+  background-size:
+    40px 40px,
+    40px 40px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px;
+}
+
+.quote-text {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+  padding-left: 60px;
+  padding-right: 60px;
+  max-width: 700px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ---------- CV DOWNLOAD SECTION ---------- */
+
+.cv-section {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.cv-heading {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  color: var(--gold, #d4a017);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.cv-button {
+  display: inline-block;
+  border: 2px solid var(--gold, #d4a017);
+  background: transparent;
+  color: var(--gold, #d4a017);
+  padding: 12px 36px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cv-button:hover {
+  background: var(--gold, #d4a017);
+  color: var(--bg-primary, #0a0a0a);
+}
+
+/* ---------- PHOTO GALLERY ---------- */
+
+.about-gallery {
+  margin: 60px 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  gap: 10px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Collage-style spanning */
+.gi-1 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gi-2 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gi-3 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gi-4 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.gi-5 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gi-6 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.gi-7 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* ---------- BOTTOM TEXT ---------- */
+
+.about-bottom-text {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 24px 20px;
+  }
+
+  .about-top {
+    flex-direction: column;
+  }
+
+  .about-top-left,
+  .about-top-right {
+    flex: 1 1 100%;
+  }
+
+  .about-title {
+    font-size: 28px;
+  }
+
+  .quote-banner {
+    height: auto;
+    min-height: 200px;
+    padding: 40px 0;
+  }
+
+  .quote-text {
+    font-size: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 160px;
+  }
+
+  .gi-1 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .gi-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}

@@ -1,0 +1,186 @@
+/* ===== Contact Page ===== */
+
+.contact-page {
+  background-color: var(--bg-primary, #0a0a0a);
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px 30px 40px;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  display: flex;
+  gap: 40px;
+}
+
+/* ---------- LEFT COLUMN ---------- */
+
+.contact-left {
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  color: var(--gold, #d4a017);
+  font-size: 34px;
+  margin: 0 0 40px 0;
+  font-weight: 400;
+}
+
+/* ---------- CONTACT INFO ---------- */
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-email {
+  color: #ffffff;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 20px;
+  margin: 0;
+}
+
+.contact-roles {
+  color: var(--gold, #d4a017);
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* ---------- SOCIAL ICONS ---------- */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--gold, #d4a017);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold, #d4a017);
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  background: var(--gold, #d4a017);
+  color: var(--bg-primary, #0a0a0a);
+}
+
+.social-icon svg {
+  display: block;
+}
+
+/* ---------- QUICK CHAT ---------- */
+
+.quick-chat {
+  background: var(--bg-card, #1a1a1a);
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.quick-chat-heading {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  color: var(--gold, #d4a017);
+  font-size: 22px;
+  margin: 0 0 16px 0;
+  font-weight: 400;
+}
+
+.quick-chat-textarea {
+  background: #333333;
+  border-radius: 12px;
+  border: none;
+  padding: 16px;
+  width: 100%;
+  height: 160px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  resize: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.quick-chat-textarea::placeholder {
+  color: #888888;
+}
+
+.quick-chat-textarea:focus {
+  outline: 1px solid var(--gold, #d4a017);
+}
+
+.quick-chat-send {
+  background: var(--gold, #d4a017);
+  color: var(--bg-primary, #0a0a0a);
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  cursor: pointer;
+  float: right;
+  margin-top: 16px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.quick-chat-send:hover {
+  background: var(--gold-light, #f0c040);
+}
+
+/* ---------- RIGHT COLUMN ---------- */
+
+.contact-right {
+  flex: 0 0 35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-portrait {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  .contact-page {
+    flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .contact-left {
+    flex: 1 1 100%;
+  }
+
+  .contact-right {
+    flex: 1 1 100%;
+  }
+
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .contact-email {
+    font-size: 16px;
+  }
+
+  .contact-portrait {
+    max-height: 400px;
+  }
+}
