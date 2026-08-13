@@ -34,19 +34,14 @@ function Home() {
         ))}
       </section>
 
-      {/* Showreel Section */}
-      <section className="showreel-section">
-        <h2 className="showreel-title">SHOWREEL</h2>
-        <div className="showreel-video-wrapper">
-          <iframe
-            className="showreel-iframe"
-            src="https://www.youtube.com/embed/Ya_euL2Y7Vo"
-            title="Showreel"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
+      {/* Action Buttons */}
+      <section className="home-actions">
+        <Link to="/showreel" className="home-action-btn">
+          Watch Showreel
+        </Link>
+        <Link to="/portfolio" className="home-action-btn">
+          Watch Portfolio
+        </Link>
       </section>
     </main>
   );

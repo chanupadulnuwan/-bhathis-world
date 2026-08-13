@@ -46,12 +46,17 @@ function About() {
         </p>
       </section>
 
-      {/* CV DOWNLOAD */}
+      {/* CV SECTION */}
       <section className="cv-section">
-        <h2 className="cv-heading">Download CV</h2>
-        <a href="#" className="cv-button">
-          Download CV
-        </a>
+        <h2 className="cv-heading">Curriculum Vitae</h2>
+        <div className="cv-buttons">
+          <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="cv-button">
+            View CV
+          </a>
+          <a href="/CV.pdf" download className="cv-button">
+            Download CV
+          </a>
+        </div>
       </section>
 
       {/* PHOTO GALLERY */}
