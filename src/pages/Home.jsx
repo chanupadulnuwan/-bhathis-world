@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import MoltenMetal from '../components/MoltenMetal';
 import './Home.css';
 
 const projects = [
@@ -13,6 +14,30 @@ const projects = [
 function Home() {
   return (
     <main className="home-page">
+      {/* Molten Metal Background */}
+      <div className="molten-bg">
+        <MoltenMetal
+          color1="#46443d"
+          color2="#EAB308"
+          color3="#c9740a"
+          colorMode="molten"
+          speed={0.35}
+          scale={4}
+          detail={3}
+          glow={1.6}
+          coreSize={0.1}
+          swirl={1}
+          fold={-0.2}
+          blackPoint={0.05}
+          brightness={1.3}
+          opacity={1}
+          grain
+          grainIntensity={0.05}
+          mouseInteraction
+          mouseStrength={0.3}
+        />
+      </div>
+
       {/* Project Grid */}
       <section className="project-grid">
         {projects.map((project) => (
