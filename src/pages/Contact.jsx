@@ -33,7 +33,7 @@ function Contact() {
         <h1 className="contact-title">Contact Me....</h1>
 
         <div className="contact-info">
-          <p className="contact-email">bhathiyamr@gmail.com</p>
+          <p className="contact-email">bhathimr@gmail.com</p>
           <p className="contact-roles">
             Director / Cinematographer / Vfx Artist / Content Creator
           </p>
@@ -42,7 +42,7 @@ function Contact() {
           <div className="social-icons">
             {/* Instagram */}
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/bhathimr"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
@@ -57,7 +57,7 @@ function Contact() {
 
             {/* Mail */}
             <a
-              href="mailto:bhathiyamr@gmail.com"
+              href="mailto:bhathimr@gmail.com"
               className="social-icon"
               aria-label="Email"
             >
@@ -69,7 +69,7 @@ function Contact() {
 
             {/* YouTube */}
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@BhathiMr"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"

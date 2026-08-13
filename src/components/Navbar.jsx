@@ -91,7 +91,7 @@ function Navbar() {
       <div className="navbar__socials">
         {/* Instagram */}
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/bhathimr"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar__social-icon"
@@ -115,7 +115,7 @@ function Navbar() {
 
         {/* Mail */}
         <a
-          href="mailto:bhathiyamr@gmail.com"
+          href="mailto:bhathimr@gmail.com"
           className="navbar__social-icon"
           aria-label="Email"
         >
@@ -136,7 +136,7 @@ function Navbar() {
 
         {/* YouTube */}
         <a
-          href="https://youtube.com"
+          href="https://www.youtube.com/@BhathiMr"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar__social-icon"
