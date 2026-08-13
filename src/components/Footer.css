@@ -1,0 +1,209 @@
+/* ===== Footer ===== */
+
+.footer {
+  background-color: var(--bg-primary, #0a0a0a);
+  padding: 0 30px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer__divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold, #d4a017), transparent);
+  margin-bottom: 48px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+
+/* -- Brand -- */
+.footer__brand {
+  flex: 0 0 260px;
+}
+
+.footer__logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.footer__tagline {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 13px;
+  color: var(--gold, #d4a017);
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+  font-weight: 500;
+}
+
+.footer__description {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 13px;
+  color: var(--text-muted, #888888);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* -- Nav columns -- */
+.footer__nav-columns {
+  display: flex;
+  gap: 56px;
+  flex: 1;
+  justify-content: center;
+}
+
+.footer__nav-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__nav-heading {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gold, #d4a017);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 6px;
+}
+
+.footer__link {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary, #cccccc);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__link:hover,
+.footer__link.active {
+  color: var(--gold, #d4a017);
+}
+
+.footer__link--static {
+  cursor: default;
+}
+
+.footer__link--static:hover {
+  color: var(--text-secondary, #cccccc);
+}
+
+/* -- Right section -- */
+.footer__right {
+  flex-shrink: 0;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid var(--gold, #d4a017);
+  border-radius: 50%;
+  color: var(--gold, #d4a017);
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.footer__social-icon:hover {
+  background: var(--gold, #d4a017);
+  color: var(--bg-primary, #0a0a0a);
+}
+
+.footer__location {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 13px;
+  color: var(--text-muted, #888888);
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* -- Bottom bar -- */
+.footer__bottom {
+  border-top: 1px solid rgba(212, 160, 23, 0.15);
+  padding-top: 16px;
+  text-align: center;
+}
+
+.footer__bottom p {
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 12px;
+  color: var(--text-muted, #888888);
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.footer__credit {
+  margin-top: 6px !important;
+  font-size: 11px !important;
+  color: rgba(136, 136, 136, 0.6) !important;
+}
+
+/* -- Responsive -- */
+@media (max-width: 960px) {
+  .footer__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__brand {
+    flex: 1 1 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__nav-columns {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 0 20px 16px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .footer__nav-columns {
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .footer__nav-col {
+    align-items: center;
+  }
+
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__socials {
+    justify-content: center;
+  }
+}
