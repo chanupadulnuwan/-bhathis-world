@@ -1,112 +1,93 @@
 const projectsData = [
   {
-    slug: "story-behind-magic",
-    title: "The Story of Behind my Magic",
+    slug: 'story-behind-magic',
+    title: 'The Story of Behind my Magic',
     description:
-      "Story of My Magic is a visual effects (VFX) short video created to showcase creativity through cinematic editing and digital effects. The concept follows an ordinary person discovering mysterious magical abilities that gradually transform everyday scenes into extraordinary moments. Throughout the video, a combination of particle effects, lighting enhancements, object manipulation, and smooth transitions is used to create the illusion of real magic. Each sequence was carefully planned, filmed, and edited to deliver an engaging and immersive experience while demonstrating practical VFX techniques. The project also focuses on storytelling by blending fantasy with realistic environments, allowing viewers to experience a believable magical journey. Published on YouTube, the video aims to entertain audiences.",
-    technicalDescription:
-      "The production of this VFX video involved a combination of creative planning and technical execution. Each scene was recorded with camera stability, consistent lighting, and proper framing to simplify the post-production workflow. During editing, multiple visual effects were created using techniques such as masking, motion tracking, keyframing, chroma keying, compositing, and color grading. Sound effects and background music were synchronized with the visuals to improve immersion and enhance the cinematic feel. Several layers of footage were combined to produce realistic magical effects while maintaining smooth transitions between scenes. Careful attention was given to rendering settings, frame rates, and video quality to ensure the final output was optimized for online viewing.",
-    videoId: "",
-    thumbnail: "/images/projects/pr1/thumbnail.png",
-    gallery: [
-      "/images/projects/pr1/gallery1.png",
-      "/images/projects/pr1/gallery2.png",
-      "/images/projects/pr1/gallery3.png",
-      "/images/projects/pr1/gallery4.png",
-      "/images/projects/pr1/gallery5.png",
-      "/images/projects/pr1/gallery6.png",
-    ],
+      'Story of My Magic is a visual effects (VFX) short video created to showcase creativity through cinematic editing and digital effects. The concept follows an ordinary person discovering mysterious magical abilities that gradually transform everyday scenes into extraordinary moments. Throughout the video, a combination of particle effects, lighting enhancements, object manipulation, and smooth transitions is used to create the illusion of real magic. Each sequence was carefully planned, filmed, and edited to deliver an engaging and immersive experience while demonstrating practical VFX techniques. The project also focuses on storytelling by blending fantasy with realistic environments, allowing viewers to experience a believable magical journey. Published on YouTube, the video aims to entertain audiences.',
+    technical:
+      'The production of this VFX video involved a combination of creative planning and technical execution. Each scene was recorded with camera stability, consistent lighting, and proper framing to simplify the post-production workflow. During editing, multiple visual effects were created using techniques such as masking, motion tracking, keyframing, chroma keying, compositing, and color grading. Sound effects and background music were synchronized with the visuals to improve immersion and enhance the cinematic feel. Several layers of footage were combined to produce realistic magical effects while maintaining smooth transitions between scenes. Careful attention was given to rendering settings, frame rates, and video quality to ensure the final output was optimized for online viewing.',
+    videoId: 'YcCQzwxr6LE',
+    thumbnail: '/images/projects/story-behind-magic.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
   {
-    slug: "cinematic-color-grading",
-    title: "Cinematic Color Grading",
+    slug: 'behind-every-shot',
+    title: 'Behind Every Magical Shot',
     description:
-      "A deep dive into the art of cinematic color grading, exploring how color transforms the mood, tone, and storytelling of visual content. This project showcases before-and-after comparisons of raw footage transformed through professional color grading techniques.",
-    technicalDescription:
-      "Color grading was performed using industry-standard tools and workflows. Techniques include primary and secondary color corrections, LUT application, color wheels adjustments, curves manipulation, and selective color isolation. The project demonstrates how different color palettes can evoke specific emotions and enhance visual storytelling.",
-    videoId: "",
-    thumbnail: "/images/projects/pr2/thumbnail.png",
-    gallery: [
-      "/images/projects/pr2/gallery1.png",
-      "/images/projects/pr2/gallery2.png",
-      "/images/projects/pr2/gallery3.png",
-      "/images/projects/pr2/gallery4.png",
-      "/images/projects/pr2/gallery5.png",
-      "/images/projects/pr2/gallery6.png",
-    ],
+      'Behind Every Magical Shot offers a captivating look into the visual storytelling and intricate camera craftsmanship behind cinematic filmmaking. This project highlights the artistry of camera movement, precise framing, and environmental interaction that give every scene its enchanting atmosphere. By pulling back the curtain on how complex visual moments are conceived and executed, the video demonstrates how creative vision and camera technique work hand-in-hand to bring magical moments to life on screen.',
+    technical:
+      'The technical execution focused on advanced camera stabilization, precise timing, and multi-pass compositing. Camera moves were carefully rehearsed to align visual elements with dynamic post-production layers, such as focal depth adjustments and atmospheric lighting enhancements. In post-production, raw footage underwent meticulous color space transforms, secondary color grading, keyframe stabilization, and seamless frame blending to refine every visual detail and maintain a high-end cinematic aesthetic.',
+    videoId: 'XaTZ9ZKn4ec',
+    thumbnail: '/images/projects/behind-every-shot.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
   {
-    slug: "motion-graphics-showreel",
-    title: "Motion Graphics Showreel",
+    slug: 'pocket-fortress',
+    title: 'The Pocket Fortress',
     description:
-      "A collection of motion graphics and animated visual elements created for various projects. This showreel highlights dynamic text animations, logo reveals, transitions, and abstract visual compositions designed to captivate viewers.",
-    technicalDescription:
-      "Each motion graphics piece was crafted using keyframe animation, expressions, shape layer manipulation, and particle systems. The workflow involved storyboarding concepts, designing assets, animating sequences, and rendering at high quality. Audio synchronization was carefully handled to match visual beats.",
-    videoId: "",
-    thumbnail: "/images/projects/pr3/thumbnail.png",
-    gallery: [
-      "/images/projects/pr3/gallery1.png",
-      "/images/projects/pr3/gallery2.png",
-      "/images/projects/pr3/gallery3.png",
-      "/images/projects/pr3/gallery4.png",
-      "/images/projects/pr3/gallery5.png",
-      "/images/projects/pr3/gallery6.png",
-    ],
+      'The Pocket Fortress is an imaginative visual effects short that transforms a compact, everyday miniature object into an epic, impenetrable stronghold. Blending real-world environments with digital architecture, the project explores scale manipulation and fantasy concepts in a realistic modern setting. The story follows the discovery of an ordinary item possessing extraordinary defensive mechanics, creating an intriguing contrast between microscopic detail and grand cinematic scale.',
+    technical:
+      'Creating the miniature stronghold involved complex 3D camera tracking, geometry replacement, and multi-layered compositing. High-resolution textures, dynamic lighting, and shadow casting were meticulously aligned with real-world plate lighting to ensure believable integration. Practical camera movement was matched in 3D space, while particle systems and volumetric smoke effects added realistic depth and tactile realism to the final composite.',
+    videoId: 'AJVW6Mpu8JY',
+    thumbnail: '/images/projects/pocket-fortress.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
   {
-    slug: "photo-manipulation-art",
-    title: "Photo Manipulation Art",
+    slug: 'the-melody',
+    title: 'The Melody',
     description:
-      "A series of surreal photo manipulation artworks that blend photography with digital art. Each piece transforms ordinary photographs into fantastical scenes through creative compositing and digital painting techniques.",
-    technicalDescription:
-      "The photo manipulations were created through multi-layer compositing, advanced masking, blending modes, dodge and burn techniques, frequency separation, and digital painting. Each piece required careful attention to lighting consistency, perspective matching, and color harmony across all composite elements.",
-    videoId: "",
-    thumbnail: "/images/projects/pr4/thumbnail.png",
-    gallery: [
-      "/images/projects/pr4/gallery1.png",
-      "/images/projects/pr4/gallery2.png",
-      "/images/projects/pr4/gallery3.png",
-      "/images/projects/pr4/gallery4.png",
-      "/images/projects/pr4/gallery5.png",
-      "/images/projects/pr4/gallery6.png",
-    ],
+      'The Melody is a visually rich creative piece centered around music, rhythm, and artistic visual harmony. The video explores how sound waves and melodic beats translate into fluid, expressive visual effects that move in perfect sync with the soundtrack. Designed to evoke emotion and rhythm, the narrative highlights the deep connection between musical melody and cinematic visuals, creating an immersive sensory experience.',
+    technical:
+      'Technical production relied heavily on audio-reactive visual animation and precise audio-to-video editing workflows. Custom expressions and keyframe synchronization were utilized to link visual element properties—such as light intensity, scale, and color shifts—directly to audio frequencies. Extensive color grading and smooth frame transitions ensured the visual beats matched the rhythm effortlessly without overwhelming the screen.',
+    videoId: 'XaTZ9ZKn4ec',
+    thumbnail: '/images/projects/the-melody.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
   {
-    slug: "short-film-production",
-    title: "Short Film Production",
+    slug: 'transformation-sad-memories',
+    title: 'Transformation of Sad Memories',
     description:
-      "A narrative short film combining storytelling with visual effects to create an immersive cinematic experience. The project covers the complete filmmaking pipeline from pre-production planning through to final delivery.",
-    technicalDescription:
-      "Production involved script writing, storyboarding, location scouting, and shot planning. Filming was done with attention to composition, lighting setups, and audio recording. Post-production included editing, sound design, visual effects integration, color grading, and final mastering for distribution across multiple platforms.",
-    videoId: "",
-    thumbnail: "/images/projects/pr5/thumbnail.png",
-    gallery: [
-      "/images/projects/pr5/gallery1.png",
-      "/images/projects/pr5/gallery2.png",
-      "/images/projects/pr5/gallery3.png",
-      "/images/projects/pr5/gallery4.png",
-      "/images/projects/pr5/gallery5.png",
-      "/images/projects/pr5/gallery6.png",
-    ],
+      'Transformation of Sad Memories is a poignant visual story reflecting emotional growth, healing, and renewal. The narrative visually alters melancholic moments into vibrant, hopeful artwork through symbolic editing and glowing color transformations. By depicting the gradual shifts in mood from dark tone to warm illumination, the video portrays how past sorrow can evolve into strength and positivity.',
+    technical:
+      'The transformation effect was achieved through selective color keying, dynamic masking, and animated color transitions. Scenes start with muted, cold color palettes and seamlessly transition into rich, saturated tones using keyframed LUT interpolations and particle light blooms. Careful compositing ensured clean edge separation and subtle overlay blending to achieve a soft, surreal visual evolution.',
+    videoId: 'JAwQDIwB9GE',
+    thumbnail: '/images/projects/transformation-sad-memories.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
   {
-    slug: "3d-animation-project",
-    title: "3D Animation Project",
+    slug: 'the-strange-tool',
+    title: 'The Strange Tool',
     description:
-      "An exploration of 3D animation and rendering, featuring character animation, environment design, and cinematic camera work. This project demonstrates the intersection of technical 3D skills with artistic vision.",
-    technicalDescription:
-      "The 3D pipeline included modeling, UV unwrapping, texturing, rigging, animation, lighting, and rendering. Scenes were composed with attention to realistic material shaders, global illumination, and volumetric effects. Final compositing brought together render passes for a polished cinematic result.",
-    videoId: "",
-    thumbnail: "/images/projects/pr6/thumbnail.png",
-    gallery: [
-      "/images/projects/pr6/gallery1.png",
-      "/images/projects/pr6/gallery2.png",
-      "/images/projects/pr6/gallery3.png",
-      "/images/projects/pr6/gallery4.png",
-      "/images/projects/pr6/gallery5.png",
-      "/images/projects/pr6/gallery6.png",
-    ],
+      'The Strange Tool is a mystery-driven visual effects short showcasing a peculiar device with supernatural capabilities. The narrative revolves around an unsuspecting character discovering an unusual tool that alters physical reality upon activation. Through dramatic visual reveals, surreal distortions, and atmospheric tension, the project captures curiosity and wonder in a sleek, mysterious short film.',
+    technical:
+      'Post-production focused on realistic hard-surface tracking, heat distortion shaders, and digital object overlays. The tool\'s glowing energy effects were crafted using optical flare plugins, displacement maps, and custom particle simulation layers. Spatial audio design was carefully synchronized with energy pulses and device movements to emphasize the weight and realism of the fantastical tool.',
+    videoId: 'iUAlM9Wtb7Q',
+    thumbnail: '/images/projects/the-strange-tool.jpg',
+    gallery: Array.from(
+      { length: 7 },
+      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+    ),
   },
 ];
+
+export const projectsBySlug = projectsData.reduce((acc, project) => {
+  acc[project.slug] = project;
+  return acc;
+}, {});
 
 export default projectsData;
