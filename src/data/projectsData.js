@@ -20,7 +20,7 @@ const projectsData = [
       'Behind Every Magical Shot offers a captivating look into the visual storytelling and intricate camera craftsmanship behind cinematic filmmaking. This project highlights the artistry of camera movement, precise framing, and environmental interaction that give every scene its enchanting atmosphere. By pulling back the curtain on how complex visual moments are conceived and executed, the video demonstrates how creative vision and camera technique work hand-in-hand to bring magical moments to life on screen.',
     technical:
       'The technical execution focused on advanced camera stabilization, precise timing, and multi-pass compositing. Camera moves were carefully rehearsed to align visual elements with dynamic post-production layers, such as focal depth adjustments and atmospheric lighting enhancements. In post-production, raw footage underwent meticulous color space transforms, secondary color grading, keyframe stabilization, and seamless frame blending to refine every visual detail and maintain a high-end cinematic aesthetic.',
-    videoId: 'XaTZ9ZKn4ec',
+    videoId: 'YcCQzwxr6LE',
     thumbnail: '/images/projects/behind-every-shot.jpg',
     gallery: Array.from(
       { length: 7 },
