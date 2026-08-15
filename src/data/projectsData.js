@@ -37,8 +37,8 @@ const projectsData = [
     videoId: 'AJVW6Mpu8JY',
     thumbnail: '/images/projects/pocket-fortress.jpg',
     gallery: Array.from(
-      { length: 7 },
-      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+      { length: 12 },
+      (_, i) => `/images/projects/pocket-fortress/gallery${i + 1}.jpg`
     ),
   },
   {
@@ -51,8 +51,8 @@ const projectsData = [
     videoId: 'XaTZ9ZKn4ec',
     thumbnail: '/images/projects/the-melody.jpg',
     gallery: Array.from(
-      { length: 7 },
-      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+      { length: 5 },
+      (_, i) => `/images/projects/the-melody/gallery${i + 1}.png`
     ),
   },
   {
@@ -79,8 +79,8 @@ const projectsData = [
     videoId: 'iUAlM9Wtb7Q',
     thumbnail: '/images/projects/the-strange-tool.jpg',
     gallery: Array.from(
-      { length: 7 },
-      (_, i) => `/images/projects/pr1/gallery${i + 1}.jpg`
+      { length: 9 },
+      (_, i) => `/images/projects/the-strange-tool/gallery${i + 1}.png`
     ),
   },
 ];
