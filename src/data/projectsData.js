@@ -52,7 +52,7 @@ const projectsData = [
     thumbnail: '/images/projects/the-melody.jpg',
     gallery: Array.from(
       { length: 5 },
-      (_, i) => `/images/projects/the-melody/gallery${i + 1}.png`
+      (_, i) => `/images/projects/the-melody/gallery${i + 1}.jpg`
     ),
   },
   {
@@ -80,7 +80,7 @@ const projectsData = [
     thumbnail: '/images/projects/the-strange-tool.jpg',
     gallery: Array.from(
       { length: 9 },
-      (_, i) => `/images/projects/the-strange-tool/gallery${i + 1}.png`
+      (_, i) => `/images/projects/the-strange-tool/gallery${i + 1}.jpg`
     ),
   },
 ];
