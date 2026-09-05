@@ -31,12 +31,12 @@
   text-decoration: none;
   flex-shrink: 0;
   align-self: flex-start;
-  margin-top: -22px;
+  margin-top: -18px;
   z-index: 1001;
 }
 
 .navbar__logo-img {
-  height: 95px;
+  height: 85px;
   width: auto;
   object-fit: contain;
   transition: transform 0.25s ease;
@@ -187,7 +187,7 @@
   }
 
   .navbar__logo-img {
-    height: 68px;
+    height: 60px;
   }
 }
 
@@ -221,6 +221,6 @@
   }
 
   .navbar__logo-img {
-    height: 55px;
+    height: 48px;
   }
 }
