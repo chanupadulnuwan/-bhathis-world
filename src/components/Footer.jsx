@@ -72,7 +72,7 @@ function Footer() {
       {/* Bottom bar */}
       <div className="footer__bottom">
         <p>&copy; {new Date().getFullYear()} Bhathi's World. All rights reserved.</p>
-        <p className="footer__credit">Designed &amp; Developed by Bhathiya Maneth Ranaweera</p>
+        <p className="footer__credit">Designed &amp; Developed by Chanupa Dulnuwan</p>
       </div>
     </footer>
   );
