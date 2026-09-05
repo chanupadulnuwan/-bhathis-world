@@ -31,14 +31,15 @@
   text-decoration: none;
   flex-shrink: 0;
   align-self: flex-start;
-  margin-top: -20px;
+  margin-top: -22px;
   z-index: 1001;
 }
 
 .navbar__logo-img {
-  height: 70px;
+  height: 95px;
   width: auto;
   object-fit: contain;
+  transition: transform 0.25s ease;
 }
 
 /* ── Center section ── */
@@ -186,7 +187,7 @@
   }
 
   .navbar__logo-img {
-    height: 50px;
+    height: 68px;
   }
 }
 
@@ -220,6 +221,6 @@
   }
 
   .navbar__logo-img {
-    height: 40px;
+    height: 55px;
   }
 }
