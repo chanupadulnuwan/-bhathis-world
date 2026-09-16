@@ -15,7 +15,7 @@
 
 .project-detail__back-link {
   display: inline-block;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
   font-size: 14px;
   text-decoration: none;
@@ -24,7 +24,7 @@
 }
 
 .project-detail__back-link:hover {
-  color: var(--gold-light, #f0c040);
+  color: var(--gold-light, #d4a674);
 }
 
 /* ========== Top Section: Info + Video ========== */
@@ -43,7 +43,7 @@
 .project-detail__title {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
   font-style: italic;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 34px;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -71,8 +71,8 @@
   height: 0;
   overflow: hidden;
   border-radius: 8px;
-  border: 1px solid rgba(212, 160, 23, 0.3);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(212, 160, 23, 0.15);
+  border: 1px solid rgba(187, 141, 91, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(187, 141, 91, 0.15);
 }
 
 .project-detail__video-wrapper iframe {
@@ -92,7 +92,7 @@
 
 .project-detail__technical-heading {
   font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -110,7 +110,7 @@
 }
 
 .project-detail__see-more {
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   cursor: pointer;
   font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
   font-size: 14px;
@@ -123,11 +123,11 @@
 }
 
 .project-detail__see-more:hover {
-  color: var(--gold-light, #f0c040);
+  color: var(--gold-light, #d4a674);
 }
 
 .project-detail__see-more:focus-visible {
-  outline: 2px solid var(--gold, #d4a017);
+  outline: 2px solid var(--gold, #bb8d5b);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -160,8 +160,8 @@
 
 .project-detail__gallery-item img:hover {
   transform: scale(1.03);
-  border-color: var(--gold, #d4a017);
-  box-shadow: 0 0 15px rgba(212, 160, 23, 0.3);
+  border-color: var(--gold, #bb8d5b);
+  box-shadow: 0 0 15px rgba(187, 141, 91, 0.3);
 }
 
 /* ========== Coming Soon Fallback ========== */
@@ -182,7 +182,7 @@
 .project-detail__coming-soon-title {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
   font-style: italic;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 40px;
   font-weight: 400;
   margin: 0 0 16px 0;

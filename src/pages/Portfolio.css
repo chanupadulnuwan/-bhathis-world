@@ -13,7 +13,7 @@
   font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
   font-size: 28px;
   font-weight: 600;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   text-transform: uppercase;
   letter-spacing: 4px;
   margin: 0 0 24px;
@@ -26,9 +26,9 @@
 
 .portfolio-btn {
   display: inline-block;
-  border: 2px solid var(--gold, #d4a017);
+  border: 2px solid var(--gold, #bb8d5b);
   background: transparent;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   padding: 12px 36px;
   font-size: 14px;
   text-transform: uppercase;
@@ -40,7 +40,7 @@
 }
 
 .portfolio-btn:hover {
-  background: var(--gold, #d4a017);
+  background: var(--gold, #bb8d5b);
   color: var(--bg-primary, #0a0a0a);
 }
 

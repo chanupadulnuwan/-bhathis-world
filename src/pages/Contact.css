@@ -21,7 +21,7 @@
 .contact-title {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
   font-style: italic;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 34px;
   margin: 0 0 40px 0;
   font-weight: 400;
@@ -41,7 +41,7 @@
 }
 
 .contact-roles {
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 14px;
   letter-spacing: 1px;
   margin-top: 10px;
@@ -60,17 +60,17 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 2px solid var(--gold, #d4a017);
+  border: 2px solid var(--gold, #bb8d5b);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   text-decoration: none;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
-  background: var(--gold, #d4a017);
+  background: var(--gold, #bb8d5b);
   color: var(--bg-primary, #0a0a0a);
 }
 
@@ -89,7 +89,7 @@
 
 .quick-chat-heading {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 22px;
   margin: 0 0 16px 0;
   font-weight: 400;
@@ -115,11 +115,11 @@
 }
 
 .quick-chat-textarea:focus {
-  outline: 1px solid var(--gold, #d4a017);
+  outline: 1px solid var(--gold, #bb8d5b);
 }
 
 .quick-chat-send {
-  background: var(--gold, #d4a017);
+  background: var(--gold, #bb8d5b);
   color: var(--bg-primary, #0a0a0a);
   border: none;
   padding: 10px 40px;
@@ -136,7 +136,7 @@
 }
 
 .quick-chat-send:hover {
-  background: var(--gold-light, #f0c040);
+  background: var(--gold-light, #d4a674);
 }
 
 /* ---------- RIGHT COLUMN ---------- */

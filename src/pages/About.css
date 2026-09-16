@@ -30,7 +30,7 @@
 .about-title {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
   font-style: italic;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 34px;
   margin: 0 0 24px 0;
   font-weight: 400;
@@ -104,7 +104,7 @@
 
 .cv-heading {
   font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -120,9 +120,9 @@
 
 .cv-button {
   display: inline-block;
-  border: 2px solid var(--gold, #d4a017);
+  border: 2px solid var(--gold, #bb8d5b);
   background: transparent;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   padding: 12px 36px;
   font-size: 14px;
   text-transform: uppercase;
@@ -134,7 +134,7 @@
 }
 
 .cv-button:hover {
-  background: var(--gold, #d4a017);
+  background: var(--gold, #bb8d5b);
   color: var(--bg-primary, #0a0a0a);
 }
 

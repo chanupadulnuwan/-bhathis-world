@@ -9,7 +9,7 @@
 .gallery-heading {
   font-family: var(--font-title, 'Jim Nightshade', cursive);
   font-style: italic;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   font-size: 34px;
   font-weight: 400;
   margin: 0 0 40px 0;
@@ -36,7 +36,7 @@
 
 .gallery-masonry-item img:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 20px rgba(212, 160, 23, 0.2);
+  box-shadow: 0 0 20px rgba(187, 141, 91, 0.2);
 }
 
 /* ---------- Responsive ---------- */

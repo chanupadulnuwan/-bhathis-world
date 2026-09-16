@@ -53,8 +53,8 @@
 }
 
 .project-card:hover .project-thumbnail-wrapper {
-  border-color: var(--gold, #d4a017);
-  box-shadow: 0 0 15px rgba(212, 160, 23, 0.3);
+  border-color: var(--gold, #bb8d5b);
+  box-shadow: 0 0 15px rgba(187, 141, 91, 0.3);
 }
 
 .project-thumbnail {
@@ -71,7 +71,7 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 3px;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   text-transform: uppercase;
   text-align: center;
   margin: 16px 0 0;
@@ -89,9 +89,9 @@
 
 .home-action-btn {
   display: inline-block;
-  border: 2px solid var(--gold, #d4a017);
+  border: 2px solid var(--gold, #bb8d5b);
   background: transparent;
-  color: var(--gold, #d4a017);
+  color: var(--gold, #bb8d5b);
   padding: 14px 40px;
   font-size: 14px;
   text-transform: uppercase;
@@ -103,7 +103,7 @@
 }
 
 .home-action-btn:hover {
-  background: var(--gold, #d4a017);
+  background: var(--gold, #bb8d5b);
   color: var(--bg-primary, #0a0a0a);
 }
 

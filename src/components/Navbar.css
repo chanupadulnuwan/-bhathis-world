@@ -152,7 +152,7 @@
 
 .navbar__social-icon:hover {
   border-color: var(--gold-light);
-  background-color: rgba(212, 160, 23, 0.1);
+  background-color: rgba(187, 141, 91, 0.1);
 }
 
 .navbar__social-icon:hover svg {
