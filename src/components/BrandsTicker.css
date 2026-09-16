@@ -8,12 +8,11 @@
 }
 
 .brands-ticker__title {
-  font-family: var(--font-title, 'Jim Nightshade', cursive);
-  font-style: italic;
-  font-size: 34px;
+  font-family: var(--font-main, 'Kantumruy Pro', sans-serif);
+  font-size: 32px;
+  font-weight: 700;
   color: var(--gold, #bb8d5b);
-  font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin: 0 0 24px 0;
   text-transform: uppercase;
 }
