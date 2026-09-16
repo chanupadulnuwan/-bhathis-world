@@ -18,18 +18,21 @@ function BrandsTicker() {
   ];
 
   return (
-    <section className="brands-ticker" aria-label="Brand Partners">
-      <div className="brands-ticker__track">
-        {repeatedLogos.map((brand, idx) => (
-          <div key={idx} className="brands-ticker__item">
-            <img
-              src={brand.src}
-              alt={brand.name}
-              className="brands-ticker__logo"
-              loading="lazy"
-            />
-          </div>
-        ))}
+    <section className="brands-ticker" aria-label="Collaborators">
+      <h2 className="brands-ticker__title">COLLABORATORS</h2>
+      <div className="brands-ticker__slider">
+        <div className="brands-ticker__track">
+          {repeatedLogos.map((brand, idx) => (
+            <div key={idx} className="brands-ticker__item">
+              <img
+                src={brand.src}
+                alt={brand.name}
+                className="brands-ticker__logo"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -2,9 +2,26 @@
 
 .brands-ticker {
   width: 100%;
-  overflow: hidden;
   position: relative;
   margin: 60px 0 20px;
+  text-align: center;
+}
+
+.brands-ticker__title {
+  font-family: var(--font-title, 'Jim Nightshade', cursive);
+  font-style: italic;
+  font-size: 34px;
+  color: var(--gold, #bb8d5b);
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+}
+
+.brands-ticker__slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
   padding: 24px 0;
   background: rgba(10, 10, 10, 0.4);
   backdrop-filter: blur(4px);
@@ -30,12 +47,12 @@
 .brands-ticker__track {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 150px;
   width: max-content;
-  animation: rollLeftToRight 25s linear infinite;
+  animation: rollLeftToRight 30s linear infinite;
 }
 
-.brands-ticker:hover .brands-ticker__track {
+.brands-ticker__slider:hover .brands-ticker__track {
   animation-play-state: paused;
 }
 
@@ -47,9 +64,9 @@
 }
 
 .brands-ticker__logo {
-  height: 50px;
+  height: 55px;
   width: auto;
-  max-width: 160px;
+  max-width: 180px;
   object-fit: contain;
   filter: grayscale(30%) brightness(0.9) opacity(0.85);
   transition: filter 0.3s ease, transform 0.3s ease;
@@ -74,16 +91,24 @@
 @media (max-width: 768px) {
   .brands-ticker {
     margin: 40px 0 10px;
+  }
+
+  .brands-ticker__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .brands-ticker__slider {
     padding: 18px 0;
   }
 
   .brands-ticker__track {
-    gap: 48px;
-    animation-duration: 18s;
+    gap: 90px;
+    animation-duration: 20s;
   }
 
   .brands-ticker__logo {
-    height: 38px;
-    max-width: 120px;
+    height: 40px;
+    max-width: 130px;
   }
 }
