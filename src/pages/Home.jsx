@@ -17,9 +17,9 @@ function Home() {
       {/* Molten Metal Background */}
       <div className="molten-bg">
         <MoltenMetal
-          color1="#46443d"
-          color2="#EAB308"
-          color3="#c9740a"
+          color1="#3d2e1e"
+          color2="#bb8d5b"
+          color3="#d4a674"
           colorMode="molten"
           speed={0.35}
           scale={4}
