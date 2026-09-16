@@ -1,9 +1,21 @@
 import './BrandsTicker.css';
 
 const brandLogos = [
-  { name: 'Brand 1', src: '/images/brands/b8882fe2-e93d-4a7c-a918-52e461975c20.png' },
-  { name: 'EE', src: '/images/brands/ee.png' },
-  { name: 'Flashforge', src: '/images/brands/flashforge-logo.png' },
+  {
+    name: 'TORRAS',
+    src: '/images/brands/b8882fe2-e93d-4a7c-a918-52e461975c20.png',
+    url: 'https://torraslife.com/',
+  },
+  {
+    name: 'edelkrone',
+    src: '/images/brands/ee.png',
+    url: 'https://edelkrone.com/',
+  },
+  {
+    name: 'Flashforge',
+    src: '/images/brands/flashforge-logo.png',
+    url: 'https://www.flashforge.com/',
+  },
 ];
 
 function BrandsTicker() {
@@ -23,14 +35,20 @@ function BrandsTicker() {
       <div className="brands-ticker__slider">
         <div className="brands-ticker__track">
           {repeatedLogos.map((brand, idx) => (
-            <div key={idx} className="brands-ticker__item">
+            <a
+              key={idx}
+              href={brand.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="brands-ticker__item"
+            >
               <img
                 src={brand.src}
                 alt={brand.name}
                 className="brands-ticker__logo"
                 loading="lazy"
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
