@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import MoltenMetal from '../components/MoltenMetal';
+import BrandsTicker from '../components/BrandsTicker';
 import './Home.css';
 
 const projects = [
@@ -68,6 +69,9 @@ function Home() {
           Watch Portfolio
         </Link>
       </section>
+
+      {/* Brand Logos Rolling Loop */}
+      <BrandsTicker />
     </main>
   );
 }
