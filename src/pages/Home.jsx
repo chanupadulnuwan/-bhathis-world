@@ -15,7 +15,7 @@ const projects = [
 function Home() {
   return (
     <main className="home-page">
-      {/* Molten Metal Background */}
+      {/* Molten Metal Background (Disabled - preserved for easy restoration)
       <div className="molten-bg">
         <MoltenMetal
           color1="#3d2e1e"
@@ -38,6 +38,7 @@ function Home() {
           mouseStrength={0.3}
         />
       </div>
+      */}
 
       {/* Project Grid */}
       <section className="project-grid">
