@@ -13,38 +13,18 @@ function Navbar() {
       <div className="navbar__center">
         <div className="navbar__links">
           <NavLink to="/" end className="navbar__link">
-            <img
-              src="/images/icons/projects.png"
-              alt=""
-              className="navbar__link-icon"
-            />
             <span>PROJECTS</span>
           </NavLink>
 
           <NavLink to="/gallery" className="navbar__link">
-            <img
-              src="/images/icons/artworks.png"
-              alt=""
-              className="navbar__link-icon"
-            />
             <span>GALLERY</span>
           </NavLink>
 
           <NavLink to="/about" className="navbar__link">
-            <img
-              src="/images/icons/aboutme.png"
-              alt=""
-              className="navbar__link-icon"
-            />
             <span>ABOUT ME</span>
           </NavLink>
 
           <NavLink to="/contact" className="navbar__link">
-            <img
-              src="/images/icons/contactme.png"
-              alt=""
-              className="navbar__link-icon"
-            />
             <span>CONTACT ME</span>
           </NavLink>
         </div>

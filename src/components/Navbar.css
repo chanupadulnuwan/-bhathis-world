@@ -30,8 +30,7 @@
   align-items: center;
   text-decoration: none;
   flex-shrink: 0;
-  align-self: flex-start;
-  margin-top: -15px;
+  align-self: center;
   z-index: 1001;
 }
 
@@ -103,19 +102,12 @@
   width: 100%;
 }
 
-/* ── Link icons ── */
-.navbar__link-icon {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-}
-
 /* ── Decorative diamond divider ── */
 .navbar__divider {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 13px;
+  margin-top: 10px;
   flex-shrink: 0;
 }
 
@@ -135,8 +127,7 @@
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  align-self: flex-start;
-  margin-top: -10px;
+  align-self: center;
 }
 
 .navbar__social-icon {
