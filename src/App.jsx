@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: '155px' }}>
+      <div className="main-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />

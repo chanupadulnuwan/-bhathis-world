@@ -47,6 +47,16 @@ button {
   font-family: var(--font-main);
 }
 
+.main-wrapper {
+  padding-top: 155px;
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    padding-top: 90px;
+  }
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;
